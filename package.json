@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "standard .",
-    "test": "mocha",
+    "test": "nyc mocha",
     "test:watch": "mocha --watch"
   },
   "author": "Jacob Lorenzen <lorenzen.jacob@gmail.com> (https://github.com/jaxwood)",
@@ -16,6 +16,21 @@
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.2.0",
+    "nyc": "^10.0.0",
     "standard": "^8.6.0"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100,
+    "statements": 100,
+    "reporter": [
+      "test",
+      "lcov"
+    ],
+    "include": [
+      "src"
+    ]
   }
 }
