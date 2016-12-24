@@ -11,11 +11,9 @@
   "author": "Jacob Lorenzen <lorenzen.jacob@gmail.com> (https://github.com/jaxwood)",
   "license": "MIT",
   "dependencies": {
-    "unique-random": "^1.0.0"
+    "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "eslint-config-kentcdodds": "^11.1.0",
     "expect": "^1.20.2",
     "mocha": "^3.2.0",
     "standard": "^8.6.0"

@@ -1,9 +1,9 @@
 'use strict'
 
-var uniqueRandomArray = require('unique-random')
 var starWarsNames = require('./starwars-names.json')
+var unique= require('unique-random-array')(starWarsNames)
 
 module.exports = {
   all: starWarsNames,
-  random: uniqueRandomArray(starWarsNames)
+  random: unique()
 }
