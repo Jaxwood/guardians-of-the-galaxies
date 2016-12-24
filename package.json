@@ -26,11 +26,11 @@
     "lines": 100,
     "statements": 100,
     "reporter": [
-      "test",
+      "text-summary",
       "lcov"
     ],
     "include": [
-      "src"
+      "src/*.js"
     ]
   }
 }
