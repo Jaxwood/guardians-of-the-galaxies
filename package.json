@@ -12,6 +12,9 @@
     "validate": "npm-run-all --parallel lint test build"
   },
   "author": "Jacob Lorenzen <lorenzen.jacob@gmail.com> (https://github.com/jaxwood)",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "^1.0.0"
