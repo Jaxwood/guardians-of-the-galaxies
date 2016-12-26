@@ -2,6 +2,12 @@
 
 This module contains a list of characters in the movie Guardians of the galaxies  
 
+## How to use
+
+```javascript
+  const gotg = require('guardiansOfTheGalaxies');
+```
+
 ## API
 
 `random` return one random character.  
