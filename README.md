@@ -1,4 +1,4 @@
-# Guardians of the Galaxies
+# Guardians of the Galaxies ![Travis](https://travis-ci.org/Jaxwood/guardians-of-the-galaxies.svg?branch=master)
 
 This module contains a list of characters in the movie Guardians of the galaxies  
 
