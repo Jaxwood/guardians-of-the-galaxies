@@ -12,4 +12,4 @@ notifications:
 script:
   npm run validate
 after_succss:
-  npm run report-coverage
+  - npm run report-coverage
