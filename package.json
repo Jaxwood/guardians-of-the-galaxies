@@ -18,6 +18,10 @@
     "release": "semantic-release pre && npm publish && sementic-release post"
   },
   "author": "Jacob Lorenzen <lorenzen.jacob@gmail.com> (https://github.com/jaxwood)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jaxwood/guardians-of-the-galaxies"
+  },
   "files": [
     "dist"
   ],
