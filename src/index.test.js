@@ -2,7 +2,7 @@ var expect = require('expect')
 var names = require('./guardians-of-the-galaxies.json')
 var sut = require('./index')
 
-describe('starwars names', function() {
+describe('guardians of the galaxies', function() {
   it('should return all names', function() {
     var actual = sut.all
     expect(actual).toEqual(names)
