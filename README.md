@@ -6,6 +6,7 @@ This module contains a list of characters in the movie Guardians of the galaxies
 ## How to use
 
 ```javascript
+  npm install --save gotg
   const gotg = require('gotg');
 ```
 
