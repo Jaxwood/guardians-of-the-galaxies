@@ -1,5 +1,5 @@
 var expect = require('expect')
-var names = require('./starwars-names.json')
+var names = require('./guardians-of-the-galaxies.json')
 var sut = require('./index')
 
 describe('starwars names', function() {

@@ -1,7 +1,7 @@
 {
-  "name": "starwars-names",
+  "name": "guardiansOfTheGalaxies",
   "version": "1.0.0",
-  "description": "star wars name",
+  "description": "Names of characters in the movie Guardian of the Galaxies",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
