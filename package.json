@@ -15,7 +15,9 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test:watch": "mocha --watch",
     "validate": "npm-run-all --parallel lint test build",
-    "release": "semantic-release pre && npm publish && semantic-release post"
+    "release": "semantic-release pre && npm publish && semantic-release post",
+    "precommit": "npm run validate",
+    "commitmsg": "validate-commit-msg"
   },
   "author": "Jacob Lorenzen <lorenzen.jacob@gmail.com> (https://github.com/jaxwood)",
   "repository": {
@@ -40,7 +42,7 @@
     "cross-env": "^3.1.3",
     "cz-conventional-changelog": "^1.2.0",
     "expect": "^1.20.2",
-    "ghooks": "^2.0.0",
+    "husky": "^0.12.0",
     "json-loader": "^0.5.4",
     "mocha": "^3.2.0",
     "npm-run-all": "^3.1.2",
@@ -85,10 +87,6 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
-    },
-    "ghooks": {
-      "pre-commit": "npm run validate",
-      "commit-msg": "validate-commit-msg"
     }
   }
 }
